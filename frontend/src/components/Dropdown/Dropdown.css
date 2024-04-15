@@ -1,0 +1,28 @@
+.d-menu {
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  /* top:16.5rem; */
+  /* right:43.6rem; */
+  /* top: calc(100% - 437px);
+  left: calc(100% - 820px); */
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width:120px;
+  padding:10px 0px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  z-index: 3;
+}
+.d-menu li {
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  font-size: 14px;
+  /* border: 1px solid gray; */
+}
+.d-menu li:hover{
+  color: blue;
+}

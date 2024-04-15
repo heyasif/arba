@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #1e28320d;
+  height: 90px;
+  /* width: 100vw; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  color: #000;
+
+}
+.navbar-sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:30px;
+  margin-bottom: 24px;
+  color: #000;
+  margin-right: 50px;
+  padding-top: 20px;
+}
