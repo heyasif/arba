@@ -100,7 +100,7 @@ const RegistrationForm = () => {
               {formik.touched.userName && formik.errors.userName ? (
                 <div className="error-text">{formik.errors.userName}</div>
               ) : null}
-              <div className="form-group">
+              {/* <div className="form-group">
                 <label htmlFor="url">Avatar</label>
                 <div className="input-box">
                   <input
@@ -109,7 +109,7 @@ const RegistrationForm = () => {
                     {...formik.getFieldProps("avatar")}
                   />
                 </div>
-              </div>
+              </div> */}
               {formik.touched.avatar && formik.errors.avatar ? (
                 <div className="error-text">{formik.errors.avatar}</div>
               ) : null}

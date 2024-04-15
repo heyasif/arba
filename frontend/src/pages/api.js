@@ -2,11 +2,11 @@ import axios from "axios";
 
 export const getApi = async (limit,filter) => {
 
-  let url = "https://smoggy-blazer-bass.cyclic.app/products";
+  let url = "https://arba-s1ny.onrender.com/products";
   if (filter) {
-    url = `https://smoggy-blazer-bass.cyclic.app/products?categoryId=${filter}`;
+    url = `https://arba-s1ny.onrender.com/products?categoryId=${filter}`;
   }else if (limit) {
-    url = `https://smoggy-blazer-bass.cyclic.app/products?limit=8`;
+    url = `https://arba-s1ny.onrender.com/products?limit=8`;
   }
   try {
     console.log(url);
